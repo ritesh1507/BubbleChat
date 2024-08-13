@@ -53,7 +53,7 @@ export default function Profile() {
 
   return (
     <div className="min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-md w-full space-y-8">
+      <div className="max-w-xl w-full space-y-6">
         <div className="text-center">
           <h2 className="mt-4 text-3xl text-center tracking-tight font-light dark:text-white">
             Pick an avatar
@@ -62,7 +62,7 @@ export default function Profile() {
         <form className="space-y-6" onSubmit={handleFormSubmit}>
           <div className="flex flex-wrap -m-1 md:-m-2">
             {avatars.map((avatar, index) => (
-              <div key={index} className="flex flex-wrap w-1/3">
+              <div key={index} className="flex flex-wrap w-1/4">
                 <div className="w-full p-1 md:p-2">
                   <img
                     alt="gallery"

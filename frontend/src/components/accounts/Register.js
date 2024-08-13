@@ -32,7 +32,7 @@ export default function Register() {
       await register(email, password);
       navigate("/profile");
     } catch (e) {
-      setError(e.message || "Failed to registerrr");
+      setError(e.message || "Failed to register");
     }
 
     setLoading(false);

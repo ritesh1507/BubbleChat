@@ -27,7 +27,7 @@ export default function Login() {
       await login(email, password);
       navigate("/");
     } catch (e) {
-      setError("Failed to login");
+      setError(e.message || "Failed to login");
     }
 
     setLoading(false);
