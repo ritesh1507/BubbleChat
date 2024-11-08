@@ -1,5 +1,5 @@
 import axios from "axios";
-import auth from "../config/firebase";
+import {auth} from "../config/firebase";
 import { io } from "socket.io-client";
 
 const baseURL = "http://localhost:3001/api";
